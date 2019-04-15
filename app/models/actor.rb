@@ -10,7 +10,6 @@ class Actor < ActiveRecord::Base
     characters.map do |character|
       "#{character} - #{character.show}"
     end 
-    binding.pry 
   end 
   
 end
