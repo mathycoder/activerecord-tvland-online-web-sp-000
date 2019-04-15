@@ -1,7 +1,7 @@
 class AddLastName < ActiveRecord::Migration[4.2]
   def change 
-    create_table :actors do |t|
-      t.string :first_name
+    add_column :actors do |t|
+      t.string :last_name
     end 
   end 
 end 
